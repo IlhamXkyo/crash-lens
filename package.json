@@ -1,0 +1,44 @@
+{
+  "name": "crash-lens",
+  "version": "1.0.0",
+  "description": "Zero-dependency CI/CD and terminal log sifter that isolates root-cause stack traces, strips build spam, and generates token-optimized failure diagnostics for developers and AI agents.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "crash-lens": "bin/crash-lens.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node bin/crash-lens.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlhamXkyo/crash-lens.git"
+  },
+  "keywords": [
+    "ci-cd",
+    "log-parser",
+    "stack-trace",
+    "diagnostics",
+    "ai-agent",
+    "context-window",
+    "token-optimization",
+    "cli",
+    "developer-tools",
+    "pytest",
+    "vitest",
+    "jest"
+  ],
+  "author": "ilhamxkyo <xanderilham4@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IlhamXkyo/crash-lens/issues"
+  },
+  "homepage": "https://github.com/IlhamXkyo/crash-lens#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
